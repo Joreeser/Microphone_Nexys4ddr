@@ -1,0 +1,3184 @@
+!SESSION 2018-12-08 22:07:10.291 -----------------------------------------------
+eclipse.buildId=2018.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:07:20.760
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-12-08 22:07:20.760
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-12-08 22:07:21.301
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-12-08 22:07:21.301
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-12-08 22:07:26.215
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:28.178
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:28.182
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:28.186
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:28.194
+!MESSAGE XSCT Command: [setws H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:28.409
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:28.417
+!MESSAGE XSCT command with result: [setws H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:54.062
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:55.976
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.016
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.023
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Fri Nov 24 22:33:39 2017",
+"vivado_version": "2017.2",
+"part": "xc7a35tcpg236-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.030
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.039
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, {"dlmb": {"hier_name": "dlmb",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"dlmb_cntlr": {"hier_name": "dlmb_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"ilmb": {"hier_name": "ilmb",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"ilmb_cntlr": {"hier_name": "ilmb_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"iomodule_0": {"hier_name": "iomodule_0",
+"type": "iomodule",
+"version": "3.1",
+"ip_type": "PERIPHERAL",
+},
+"lmb_bram_I": {"hier_name": "lmb_bram_I",
+"type": "blk_mem_gen",
+"version": "8.3",
+"ip_type": "MEMORY",
+},
+"microblaze_I": {"hier_name": "microblaze_I",
+"type": "microblaze",
+"version": "10.0",
+"ip_type": "PROCESSOR",
+},
+"rst_0": {"hier_name": "rst_0",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.143
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.154
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I], Result: [null, {"iomodule_0_SLMB": {"name": "iomodule_0",
+"base": "0xC0000000",
+"high": "0xFFFFFFFF",
+"size": "1073741824",
+"slaveintf": "SLMB",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"dlmb_cntlr_SLMB_Mem": {"name": "dlmb_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.179
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:07:56.189
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I], Result: [null, {"dlmb_cntlr": {},
+"ilmb_cntlr": {},
+"iomodule_0": {"IRQ MODE": {"description": "Interrupt Mode Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "17",
+"fields": {"IRQ Mode": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "17",
+"desc": "Interrupt Mode.
+For each bit:
+  W - When written with 1 the corresponding interrupt will use fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IRQ VECTOR 16": {"description": "Interrupt Vector Register 16",
+"address_offset": "0xC0",
+"access": "write-only",
+"size": "1",
+"fields": {"IRQ Vector": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 16 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:09.680
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:09.693
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, {"microblaze_I": {"freertos10_xilinx_v1_1": {"name": "freertos10_xilinx",
+"version": "1.1",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_1",
+},
+"standalone_v6_7": {"name": "standalone",
+"version": "6.7",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/bsp/standalone_v6_7",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:18.756
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -sw audio_bsp -dir H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp -processor microblaze_I -os standalone], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:18.784
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -sw audio_bsp -dir H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp -processor microblaze_I -os standalone], Result: [null, ]. Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:08:19.395
+!MESSAGE Indexed 'audio_bsp' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.514
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.523
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.528
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.538
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.550
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.558
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I], Result: [null, dlmb_cntlr ilmb_cntlr iomodule_0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.563
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.573
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"dlmb_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"ilmb_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"iomodule_0": {"name": "iomodule",
+"ver": "2.5",
+},
+"microblaze_I": {"name": "cpu",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.578
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.601
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, {"dlmb": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"dlmb_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ilmb": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ilmb_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"iomodule_0": {"version": "3.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"iomodule_v2_5": {"name": "iomodule",
+"version": "2.5",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iomodule_v2_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"lmb_bram_I": {"version": "8.3",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_I": {"version": "10.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_7": {"name": "cpu",
+"version": "2.7",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"rst_0": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.623
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.630
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.636
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.643
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.650
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.660
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.693
+!MESSAGE XSCT Command: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:19.699
+!MESSAGE XSCT command with result: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.322
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.337
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.343
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.351
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.421
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.438
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"microblaze_I": {"archiver": {"category": "",
+"value": "mb-ar",
+"default": "mb-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "mb-gcc",
+"default": "mb-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"default": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"xmdstub_peripheral": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Debug peripheral to be used with xmdstub",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"stdin": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"stdout": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.485
+!MESSAGE XSCT Command: [hsi::utils::get_all_libs -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.496
+!MESSAGE XSCT command with result: [hsi::utils::get_all_libs -json], Result: [null, {"libmetal_v1_4": {"name": "libmetal",
+"version": "1.4",
+"desc": "Libmetal Library",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/ThirdParty/sw_services/libmetal_v1_4",
+"os": "standalone freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexr5 psu_cortexa53 microblaze",
+},
+"lwip202_v1_1": {"name": "lwip202",
+"version": "1.1",
+"desc": "lwip202 library: lwIP (light weight IP) is an open source TCP/IP stack configured for Xilinx hard and soft Ethernet MACs",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/ThirdParty/sw_services/lwip202_v1_1",
+"os": "standalone xilkernel freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+"openamp_v1_5": {"name": "openamp",
+"version": "1.5",
+"desc": "OpenAmp Library",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lmetal,-lopen_amp,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/ThirdParty/sw_services/openamp_v1_5",
+"os": "standalone freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexr5",
+},
+"xilffs_v3_9": {"name": "xilffs",
+"version": "3.9",
+"desc": "Generic Fat File System Library",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilffs_v3_9",
+"os": "standalone freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+"xilflash_v4_4": {"name": "xilflash",
+"version": "4.4",
+"desc": "Xilinx Flash library for Intel/AMD CFI compliant parallel flash",
+"compilerflags": "",
+"linkerflags": "-lxilflash",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilflash_v4_4",
+"os": "standalone xilkernel freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+"xilfpga_v4_1": {"name": "xilfpga",
+"version": "4.1",
+"desc": "XilFPGA library provides an interface to the Linux or bare-metal users for configuring the PL over PCAP from PS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxilfpga,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilfpga_v4_1",
+"os": "standalone freertos10_xilinx",
+"proc": "psu_cortexa53 psu_cortexr5 psu_pmu",
+},
+"xilisf_v5_11": {"name": "xilisf",
+"version": "5.11",
+"desc": "Xilinx In-system and Serial Flash Library",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxilisf,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilisf_v5_11",
+"os": "standalone xilkernel freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+"xilmfs_v2_3": {"name": "xilmfs",
+"version": "2.3",
+"desc": "Xilinx Memory File System",
+"compilerflags": "",
+"linkerflags": "",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilmfs_v2_3",
+"os": "standalone xilkernel freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+"xilpm_v2_3": {"name": "xilpm",
+"version": "2.3",
+"desc": "Power Management API Library for ZynqMP",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilpm_v2_3",
+"os": "standalone freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+"xilrsa_v1_5": {"name": "xilrsa",
+"version": "1.5",
+"desc": "Xilinx RSA Library to access RSA and SHA software algorithms on Zynq",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilrsa_v1_5",
+"os": "standalone freertos10_xilinx",
+"proc": "ps7_cortexa9",
+},
+"xilsecure_v3_1": {"name": "xilsecure",
+"version": "3.1",
+"desc": "Xilinx Secure Library provides interface to AES, RSA and SHA hardware engines on ZynqMP Soc",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilsecure_v3_1",
+"os": "standalone freertos10_xilinx",
+"proc": "psu_cortexa53 psu_cortexr5 psu_pmu",
+},
+"xilskey_v6_5": {"name": "xilskey",
+"version": "6.5",
+"desc": "Xilinx Secure Key Library supports programming efuse and bbram",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxilskey,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_services/xilskey_v6_5",
+"os": "standalone freertos10_xilinx",
+"proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_pmu microblaze",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.503
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.511
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.515
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.524
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.552
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:20.561
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"dlmb_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"ilmb_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"iomodule_0": {"name": "iomodule",
+"ver": "2.5",
+},
+"microblaze_I": {"name": "cpu",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.649
+!MESSAGE XSCT Command: [::hsi::utils::update_mss -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -mss H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.664
+!MESSAGE XSCT command with result: [::hsi::utils::update_mss -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -mss H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.691
+!MESSAGE XSCT Command: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.698
+!MESSAGE XSCT command with result: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.717
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.729
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.734
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.741
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.745
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.755
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.759
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.766
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.771
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:24.779
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.028
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.036
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.063
+!MESSAGE XSCT Command: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.072
+!MESSAGE XSCT command with result: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.270
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.282
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.288
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.298
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.307
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.315
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.343
+!MESSAGE XSCT Command: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:34.355
+!MESSAGE XSCT command with result: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:35.521
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:35.642
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:35.651
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:35.856
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:35.863
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:36.028
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:36.036
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:36.308
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:36.315
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:37.637
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:37.644
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:37.735
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.062
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.205
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.209
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.216
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.221
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.226
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.236
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.241
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.258
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"microblaze_I": {"archiver": {"category": "",
+"value": "mb-ar",
+"default": "mb-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "mb-gcc",
+"default": "mb-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-mlittle-endian -mxl-soft-mul -mno-xl-reorder -mcpu=v10.0",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"default": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"xmdstub_peripheral": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Debug peripheral to be used with xmdstub",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"stdin": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"stdout": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.267
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.274
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.287
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.296
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.300
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.309
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.313
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.319
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.335
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"microblaze_I": {"archiver": {"category": "",
+"value": "mb-ar",
+"default": "mb-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "mb-gcc",
+"default": "mb-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-mlittle-endian -mxl-soft-mul -mno-xl-reorder -mcpu=v10.0",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"default": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"xmdstub_peripheral": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Debug peripheral to be used with xmdstub",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"stdin": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"stdout": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.347
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.354
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.359
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.366
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.371
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.378
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.389
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.398
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.403
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.412
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.417
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.433
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"microblaze_I": {"archiver": {"category": "",
+"value": "mb-ar",
+"default": "mb-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "mb-gcc",
+"default": "mb-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-mlittle-endian -mxl-soft-mul -mno-xl-reorder -mcpu=v10.0",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"default": "-ffunction-sections -fdata-sections -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"xmdstub_peripheral": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Debug peripheral to be used with xmdstub",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"stdin": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"stdout": {"category": "",
+"value": "iomodule_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "iomodule_0",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.440
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.447
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.452
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.458
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.469
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.476
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.482
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.524
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.538
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -os standalone -processor microblaze_I -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.550
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -os standalone -processor microblaze_I -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.558
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -os standalone -processor microblaze_I -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:39.569
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -os standalone -processor microblaze_I -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.722
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.729
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:39.820
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.016
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.026
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.032
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.037
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.043
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.048
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.053
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.058
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.062
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.068
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.074
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.080
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.085
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.090
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.098
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.103
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.109
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.114
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.120
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.126
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.131
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.136
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.142
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.147
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.151
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.157
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.162
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.167
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.173
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.178
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.183
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.187
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.193
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.198
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.204
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.209
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.213
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.219
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.223
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.229
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.234
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.239
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.246
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.251
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.256
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.261
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.267
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.272
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.277
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.283
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.287
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.292
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.297
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.302
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.308
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.313
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.320
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.324
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:40.330
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.267
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.273
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.278
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.283
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.289
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.295
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:41.299
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:42.948
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:42.955
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:43.220
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:44.330
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:44.335
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:44.346
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:50.520
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-12-08 22:08:50.566
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.379
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.387
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.407
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.413
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.551
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.559
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.631
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.637
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.711
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:51.718
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:52.198
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:52.214
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:53.840
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:53.847
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:53.952
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:53.960
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:54.143
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:54.150
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:54.303
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:54.311
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:56.379
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:56.385
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:56.392
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:56.399
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:56.404
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:56.444
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.600
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.608
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.621
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.630
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.634
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.642
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.647
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.654
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.660
+!MESSAGE XSCT Command: [::hsi::utils::opensw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:57.667
+!MESSAGE XSCT command with result: [::hsi::utils::opensw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:58.523
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:58.531
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:58.535
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:58.544
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.467
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.474
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_REORDER_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.479
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.487
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.492
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.499
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_BARREL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.504
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.511
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_PCMP_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.515
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.522
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.528
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.535
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.540
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.548
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_USE_HW_MUL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.553
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.560
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_AREA_OPTIMIZED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.568
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.576
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.580
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.589
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.594
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.604
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"dlmb_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"ilmb_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"iomodule_0": {"name": "iomodule",
+"ver": "2.5",
+},
+"microblaze_I": {"name": "cpu",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.609
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.617
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.622
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.630
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.635
+!MESSAGE XSCT Command: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.641
+!MESSAGE XSCT command with result: [::hsi::utils::closesw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.688
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.701
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.705
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.714
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, {"procname": "microblaze_I",
+"osname": "standalone",
+"osver": "6.7",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.719
+!MESSAGE XSCT Command: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.728
+!MESSAGE XSCT command with result: [::hsi::utils::openhw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.732
+!MESSAGE XSCT Command: [::hsi::utils::opensw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.738
+!MESSAGE XSCT command with result: [::hsi::utils::opensw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.755
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss -app empty_application -processor microblaze_I -os standalone -dir H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_test/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:08:59.841
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf -sw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_bsp/system.mss -app empty_application -processor microblaze_I -os standalone -dir H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_test/src], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-12-08 22:09:00.278
+!MESSAGE Indexed 'audio_test' (1 sources, 0 headers) in 0.112 sec: 1 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:09:59.528
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf bit], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:09:59.535
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf bit], Result: [null, mcs_top_vanilla.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:09:59.541
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:09:59.550
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Result: [null, {"microblaze_I": "cpu_unit/U0/microblaze_I:cpu_unit/U0/microblaze_I",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:09.119
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:09.128
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Result: [null, dlmb_cntlr ilmb_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:09.133
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:09.140
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf microblaze_I C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.351
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.366
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.374
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.452
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A4BA40A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.459
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.470
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A4BA40A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.475
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA40A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.496
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA40A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.502
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA40A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.527
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A4BA40A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:22.534
+!MESSAGE XSCT Command: [fpga -file H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:23.108
+!MESSAGE XSCT command with result: [fpga -file H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:23.914
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-12-08 22:10:23.926
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Result: [null, dlmb_cntlr ilmb_cntlr]. Thread: ModalContext
