@@ -75,7 +75,7 @@ void uart_check() {
    loop++;
 }
 
-// Audio in from mic, out from 
+// Audio in from mic, out from audio output
 void audio_play(MicCore *mic_p, AudioCore *audio_p) {
 	int data;
 	

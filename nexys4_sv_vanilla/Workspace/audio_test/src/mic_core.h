@@ -17,15 +17,14 @@ class MicCore {
 public:
 // Register map
    enum {
-      DATA_REG = 0, // Display data register
+      DATA_REG = 0, // Data register
    };
 
    // Constructor
    MicCore(uint32_t core_base_addr);
    ~MicCore();
    
-   // Set display data
-   // Data should be exactly 32-bit Hex to display on all digits of screen
+   // Load mic data
    int load_mic_data();
 
 private:

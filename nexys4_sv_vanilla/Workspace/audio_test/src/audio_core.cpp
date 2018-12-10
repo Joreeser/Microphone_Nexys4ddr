@@ -1,7 +1,7 @@
 /*****************************************************************//**
- * @file sseg_core.cpp
+ * @file audio_core.cpp
  *
- * @brief implementation of SsegCore class
+ * @brief implementation of AudioCore class
  ********************************************************************/
 
 #include "audio_core.h"

@@ -3182,3 +3182,6 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 0 0 2018-12-09 21:10:05.852
 !MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks H:/SoC_Labs/Final_project/nexys4_sv_vanilla/Workspace/audio_platform/system.hdf ], Result: [null, dlmb_cntlr ilmb_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-12-09 22:21:47.096
+!MESSAGE Executed Webtalk command

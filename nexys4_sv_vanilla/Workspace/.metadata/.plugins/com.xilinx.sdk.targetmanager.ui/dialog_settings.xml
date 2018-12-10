@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="audio_platform-partial_bit"/>
+	<item value="Local" key="audio_platform-target"/>
+	<item value="audio_platform" key="programfpga.hwplatform"/>
+	<item value="Auto Detect" key="audio_platform-device"/>
+	<item value="H:\SoC_Labs\Final_project\nexys4_sv_vanilla\Workspace\audio_test\Debug\audio_test.elf" key="audio_platform-microblaze_I-initElf"/>
+	<item value="mcs_top_vanilla.mmi" key="audio_platform-bmmFile"/>
+	<item value="mcs_top_vanilla.bit" key="audio_platform-bitFile"/>
+</section>

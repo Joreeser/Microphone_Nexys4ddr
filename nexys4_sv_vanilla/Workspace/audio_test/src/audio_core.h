@@ -1,11 +1,8 @@
 /*****************************************************************//**
- * @file uart_core.h
+ * @file audio_core.h
  *
- * @brief Access MMIO timer core and
- *        display number/sting on a serial console
- *
- * @author p chu
- * @version v1.0: initial release
+ * @brief Access audio output and 
+ *        set power and data values
  ********************************************************************/
 
 #ifndef _AUDIO_CORE_H_INCLUDED
@@ -14,16 +11,16 @@
 #include "chu_io_rw.h"
 #include "chu_io_map.h"  
 /**
- * SSEG core driver
- * - Set refresh rate for sseg display 
- * - Set data to be displayed
+ * Audio core driver
+ * - Set power level 
+ * - Set data to be played 
  */
 class AudioCore {
 public:
 // Register map
    enum {
-      DATA_REG = 0, // Display data register
-	  POWER_REG = 1 // Refresh rate register
+      DATA_REG = 0, // Data register
+	  POWER_REG = 1 // Power register
    };
 
    // Constructor

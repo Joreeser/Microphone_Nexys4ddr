@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Executive Summary}{}% 1
+\BOOKMARK [1][-]{section.2}{Problem}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Microphone}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Audio Output}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{FPGA Programming Modules}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Microphone\137practice}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{mic\137test}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{audio\137out}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{SoC Implementation}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Microphone}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Audio Output}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 12
+\BOOKMARK [1][-]{section.6}{Code Appendix}{}% 13
