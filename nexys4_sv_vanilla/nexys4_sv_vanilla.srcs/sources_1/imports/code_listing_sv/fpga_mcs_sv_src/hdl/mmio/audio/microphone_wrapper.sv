@@ -19,6 +19,7 @@ module microphone_wrapper
    
     logic [31:0] buf_reg0;
     logic read_en;
+    logic data;
     
     // Input buffer register
     always_ff @(posedge clk, posedge reset)
@@ -28,15 +29,16 @@ module microphone_wrapper
           end
           else   
              if (read_en && (addr == 0))
-                read_data[0] <= buf_reg[0];
+                buf_reg0[0] <= data;
                 
     // decoding logic 
     assign read_en = cs && read;
+    assign rd_data[0] = buf_reg0[0];
     
     // slot write interface
-    assign wr_data =  0;
+    assign wr_data = 0;
     
     // external input
-    mic_test microphone(.clk(clk), .reset(reset), .M_DATA(M_DATA), .M_CLK(M_CLK), .M_LRSEL(M_LRSEL), .data_out(buf_reg0[0]));
+    mic_test microphone(.clk(clk), .reset(reset), .M_DATA(M_DATA), .M_CLK(M_CLK), .M_LRSEL(M_LRSEL), .data_out(data));
     
 endmodule
