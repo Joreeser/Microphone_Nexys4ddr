@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.9)  9 DEC 2018 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.10)  10 DEC 2018 15:51
 entering extended mode
 **./Final_Report.tex
 (Final_Report.tex
@@ -269,8 +269,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
  [1
 
-{C:/Users/REESER.ECS/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3
-]
+{C:/Users/REESER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -288,8 +287,23 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 17.
 )
-(../Code/audio_out.sv [4])
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(../Code/microphone_wrapper.sv [4]
+Overfull \hbox (363.0072pt too wide) in paragraph at lines 42--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+) (../Code/audio_out.sv [5]) (../Code/audio_wrapper.sv
+Overfull \hbox (165.00519pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[6]
+Overfull \hbox (303.00659pt too wide) in paragraph at lines 40--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
@@ -323,12 +337,12 @@ Overfull \hbox (9.0036pt too wide) in paragraph at lines 17--18
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
-[5]
+[7]
 Overfull \hbox (81.00433pt too wide) in paragraph at lines 67--68
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[6]
+[8]
 Overfull \hbox (69.00421pt too wide) in paragraph at lines 106--107
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -343,7 +357,7 @@ Overfull \hbox (75.00427pt too wide) in paragraph at lines 5--7
 [][][][][][] 
  []
 
-[7]) (../nexys4_sv_vanilla/Workspace/audio_test/src/mic_core.h
+[9]) (../nexys4_sv_vanilla/Workspace/audio_test/src/mic_core.h
 Overfull \hbox (75.00427pt too wide) in paragraph at lines 1--2
 [][][][][][][][] 
  []
@@ -353,7 +367,7 @@ Overfull \hbox (75.00427pt too wide) in paragraph at lines 5--7
 [][][][][][] 
  []
 
-) (../nexys4_sv_vanilla/Workspace/audio_test/src/audio_core.cpp [8]
+) (../nexys4_sv_vanilla/Workspace/audio_test/src/audio_core.cpp [10]
 Overfull \hbox (75.00427pt too wide) in paragraph at lines 1--2
 [][][][][][][][] 
  []
@@ -373,22 +387,22 @@ Overfull \hbox (75.00427pt too wide) in paragraph at lines 6--8
 [][][][][][] 
  []
 
-[9])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+[11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (Final_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `Final_Report.out' has not changed.
 (rerunfilecheck)             Checksum: 237B9408E4DA12E04E70FAAE7ACE47FD;749.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 7181 strings out of 493308
- 106374 string characters out of 3138753
- 227149 words of memory out of 3000000
- 10361 multiletter control sequences out of 15000+200000
+ 7290 strings out of 493308
+ 107970 string characters out of 3138764
+ 227326 words of memory out of 3000000
+ 10374 multiletter control sequences out of 15000+200000
  8409 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  33i,6n,61p,1407b,1783s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -401,9 +415,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on Final_Report.pdf (10 pages, 199728 bytes).
+Output written on Final_Report.pdf (12 pages, 216944 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 296 named destinations out of 1000 (max. 500000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 386 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
