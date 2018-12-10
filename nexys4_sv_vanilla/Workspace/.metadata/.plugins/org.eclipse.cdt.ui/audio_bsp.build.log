@@ -1,4 +1,4 @@
-22:08:35 **** Build of project audio_bsp ****
+21:06:01 **** Build of project audio_bsp ****
 make -k all 
 "Running Make include in microblaze_I/libsrc/bram_v4_2/src"
 make -C microblaze_I/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -92,5 +92,5 @@ microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly
          ^~~~~~~
 'Finished building libraries'
 
-22:08:50 Build Finished (took 15s.151ms)
+21:06:23 Build Finished (took 22s.515ms)
 

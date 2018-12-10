@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage{graphicx} % new way of doing eps files
+\usepackage{listings} % nice code layout
+\usepackage[usenames]{color} % color
+\usepackage{hyperref}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{graphgray}{gray}{0.7}
+\definecolor{ans}{rgb}{1,0,0}
+\definecolor{blue}{rgb}{0,0,1}
+\Verilog{title}{label}{file}
+	\newcommand{\Verilog}[3]{
+	\lstset{language=Verilog}
+	\lstset{backgroundcolor=\color{listinggray},rulecolor=\color{blue}}
+	\lstset{linewidth=\textwidth}
+	\lstset{commentstyle=\textit, stringstyle=\upshape,showspaces=false}
+	\lstset{frame=tb}
+	\lstinputlisting[caption={#1},label={#2}]{#3}
+}
+\newcommand{\Cpp}[3]{
+	\lstset{language=C++}
+	\lstset{backgroundcolor=\color{listinggray},rulecolor=\color{blue}}
+	\lstset{linewidth=\textwidth}
+	\lstset{commentstyle=\textit, stringstyle=\upshape,showspaces=false}
+	\lstset{frame=tb}
+	\lstinputlisting[caption={#1},label={#2}]{#3}
+}
+
+
+\author{Jordan Reeser}
+\title{Nexys 4 DDR Microphone and Audio Implementation}
+
+\begin{document}
+\maketitle
+
+\section{Executive Summary}
+For this project, the designer chose to learn about the on-board omnidirectional MEMS microphone and mono audio output port on the Nexys 4 DDR FPGA by programming it to take data from the microphone and play it through the audio port. To accomplish this task, modules were created for each device along with a top module to connect the two devices. Then, the designer created wrapper modules for the microphone and audio output port and attempted to implement the devices into the Vanilla SoC provided by Pong Chu to enable sending the sound data from the microphone to the audio output. The modules to program the board to play microphone data through the audio output were successful, however the full implentation of this functionality into the Vanilla SoC was not successful. 
+The GitHub repository containing all of the project files can be accessed using the following link: \url{https://github.com/Joreeser/sseg_SoC}
+
+\section{FPGA Programming Modules}
+In order to implement the desired design on the FPGA, three modules were needed:
+
+\begin{enumerate}
+	\item Microphone\_practice
+	\item mic\_test
+	\item audio\_out
+\end{enumerate}
+
+These modules were implemented successfully to play sound read by the microphone through the audio output in real time.
+	
+\subsection{Microphone\_practice}
+This module is the top module for the basic programming portion of the project. It instantiates both the microphone and audio output modules and connects the data from the microphone to the audio output as well as connecting all of the appropriate board signals. This module was used only for testing purposes and was not further implemented into the Vanilla SoC.
+
+\subsection{mic\_test}
+This module controls the microphone functionality. It sets up a 5-bit counter that creates the clock for the microphone utilizing the most significant bit; the microphone clock frequency must lie between 1 MHz and 3.3 MHz for operation, and this counter lies within that range. The module also sets the L/R Sel value to 0 and reads the microphone data on the positive edge of the microphone clk, which is appropriate for the low L/R Sel value. 
+
+\subsection{audio\_out}
+The audio\_out module sets up the control of the audio output. It simply sets the port power (either 1 or 0 for on and off respectively) and inputs the data. In this case, the data entering the audio module is the microphone data, and the power level is hard-wired high to turn on power.
+
+\section{SoC Implementation}
+The second part of the project was to implement the microphone/audio setup into the Vanilla SoC provided by Pong Chu in his book \textit{FPGA Prototyping by SystemVerilog Examples}. To accomplish this task, wrappers were made for the microphone and audio output modules, and these wrappers were placed into empty slots in the FPRO bridge. To control the functionality of the SoC, the main\_vanilla\_test.cpp file created by Pong Chu was edited to include a new function that turns the audio output on and sends the microphone output data to the audio output. Header files were also created for the microphone and audio output to set up their respective classes and functions. 
+
+\subsection{Microphone}
+The microphone class was set up to connect the microphone to its FPRO bus slot. A function is included called load\_mic\_data that simply loads the data read by the microphone. 
+
+
+
+
+
+
+
+\section{Implementing SSEG into FPRO Bus}
+The sseg module that was created then had to be implemented into the FPRO bus. This was acccomplished by first creating a wrapper for the sseg module. The display value and refresh value are held in separate registers and the default bridge signals of chip select, read enable, write enable, address, read data, and write data are also connected. This wrapper was then plugged in to the bridge by adding it to the mmio\_sys\_vanilla.sv file and adding the sseg and an signals to that file along with mcs\_top\_vanilla.sv file that instantiates mmio\_sys\_vanilla.sv.
+
+\section{Programming SSEG in SDK}
+In order to control the functionality of the newly implemented sseg, a workspace was created in SDK for the SoC to create the ELF file. The following files had to be created/adapted to accomplish this:
+
+\begin{enumerate}
+	\item main\_vanilla\_test.cpp
+	\item sseg\_core.cpp
+	\item sseg\_core.h
+\end{enumerate} 
+
+\subsection{main\_vanilla\_test.cpp}
+This is the test code file that sruns the functionality of the SoC. To implement the the sseg, a function had to be made that sets the display value and refresh rate of the sseg. For the sake of simplicity, the display value is set to 0xFFFFFFFF and the refresh rate is set to 3 to have a solid display. It is important to note that at bootup, the sseg displays the default value, 0, at the default refresh rate, 50, or a short period of time before using the new values. 
+
+\subsection{sseg\_core.cpp}
+this file creates the sseg core and its functions. In the core definition, the default refresh rate is set to 50 and the default display value is set to 0. The functions for the sseg core are set\_display\_data, which simply sets the hex values to be displayed, and set\_refresh\_rate, which sets the sseg display refresh rate in ms. 
+
+\subsection{sseg\_core.h}
+This file is the header file for the sseg core. It sets up the class and enumerates the data register (DATA\_REG) and refresh register (REFRESH\_REG) to 0 and 1 respectively. It also has the function primitives for the sseg functions. This file also sets up the base\_addr variable as private to the class.
+
+
+\section{Code Appendix}
+\Cpp{C++ code for implementing the SoC functionality with the sseg.}{code:main_vanilla_test}{../nexys4_sv_vanilla/sseg_test/src/main_vanilla_test.cpp}
+
+\Cpp{C++ code for implementing the sseg core with functions to set display data and refresh rate.}{code:sseg_core_c}{../nexys4_sv_vanilla/sseg_test/src/sseg_core.cpp}
+
+\Cpp{C++ header file for the sseg\_core.}{code:sseg_core_h}{../nexys4_sv_vanilla/sseg_test/src/sseg_core.h}
+\end{document} 

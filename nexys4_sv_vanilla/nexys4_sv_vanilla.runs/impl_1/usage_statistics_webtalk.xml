@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Sat Dec  8 22:06:16 2018'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Sun Dec  9 21:00:48 2018'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="1957588" description="" />
-  <keyValuePair key="date_generated" value="Sat Dec  8 22:06:16 2018" description="" />
+  <keyValuePair key="date_generated" value="Sun Dec  9 21:00:48 2018" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2017.2.1 (64-bit)" description="" />
   <keyValuePair key="project_id" value="ca9b31ec0e714291b214e532f7a1b529" description="" />
-  <keyValuePair key="project_iteration" value="13" description="" />
-  <keyValuePair key="random_id" value="0d7c5c1d5b795d0f9dd985b89f218e8e" description="" />
+  <keyValuePair key="project_iteration" value="14" description="" />
+  <keyValuePair key="random_id" value="6d18661552d658349424b91b1c85049b" description="" />
   <keyValuePair key="registration_id" value="176094205_174126154_210553245_322" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7a100t" description="" />
@@ -1138,8 +1138,8 @@
   <section name="usage" level="2" order="2" description="">
    <keyValuePair key="elapsed" value="00:00:56s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="443.227MB" description="" />
-   <keyValuePair key="memory_peak" value="711.496MB" description="" />
+   <keyValuePair key="memory_gain" value="443.465MB" description="" />
+   <keyValuePair key="memory_peak" value="711.305MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="11" description="">
@@ -1194,26 +1194,26 @@
  </section>
  <section name="vivado_usage" level="1" order="12" description="">
   <section name="java_command_handlers" level="2" order="1" description="">
-   <keyValuePair key="addsources" value="4" description="" />
+   <keyValuePair key="addsources" value="5" description="" />
    <keyValuePair key="autoconnecttarget" value="1" description="" />
-   <keyValuePair key="editdelete" value="1" description="" />
+   <keyValuePair key="editdelete" value="2" description="" />
    <keyValuePair key="elffileassociation" value="1" description="" />
    <keyValuePair key="fliptoviewtaskimplementation" value="1" description="" />
    <keyValuePair key="launchprogramfpga" value="1" description="" />
-   <keyValuePair key="newexporthardware" value="10" description="" />
+   <keyValuePair key="newexporthardware" value="11" description="" />
    <keyValuePair key="openhardwaremanager" value="3" description="" />
-   <keyValuePair key="openproject" value="4" description="" />
+   <keyValuePair key="openproject" value="5" description="" />
    <keyValuePair key="openrecenttarget" value="1" description="" />
    <keyValuePair key="programdevice" value="1" description="" />
-   <keyValuePair key="runbitgen" value="21" description="" />
+   <keyValuePair key="runbitgen" value="22" description="" />
    <keyValuePair key="runimplementation" value="1" description="" />
    <keyValuePair key="runsynthesis" value="1" description="" />
    <keyValuePair key="settopnode" value="2" description="" />
-   <keyValuePair key="showview" value="12" description="" />
+   <keyValuePair key="showview" value="13" description="" />
    <keyValuePair key="viewtaskimplementation" value="2" description="" />
   </section>
   <section name="other_data" level="2" order="2" description="">
-   <keyValuePair key="guimode" value="5" description="" />
+   <keyValuePair key="guimode" value="6" description="" />
   </section>
   <section name="project_data" level="2" order="3" description="">
    <keyValuePair key="constraintsetcount" value="1" description="" />
@@ -1238,7 +1238,7 @@
    <keyValuePair key="launch_simulation_vcs" value="0" description="" />
    <keyValuePair key="launch_simulation_xsim" value="0" description="" />
    <keyValuePair key="simulator_language" value="Mixed" description="" />
-   <keyValuePair key="srcsetcount" value="34" description="" />
+   <keyValuePair key="srcsetcount" value="38" description="" />
    <keyValuePair key="synthesisstrategy" value="Vivado Synthesis Defaults" description="" />
    <keyValuePair key="target_language" value="VHDL" description="" />
    <keyValuePair key="target_simulator" value="XSim" description="" />

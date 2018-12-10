@@ -76,28 +76,29 @@ void uart_check() {
 }
 
 // Audio in from mic, out from 
-void audio_play(GpiCore *mic_p, GpoCore *audio_p, AudioCore *power_p) {
+void audio_play(MicCore *mic_p, AudioCore *audio_p) {
 	int data;
 	
-	data = (int)mic_p->read();
-	power_p->set_power((int)1);
-	audio_p->write(data);
+	data = (int)mic_p->load_mic_data();
+	audio_p->set_power((int)1);
+	audio_p->set_data(data);
 }
 	
 
 // instantiate switch, led
 GpoCore led(get_slot_addr(BRIDGE_BASE, S2_LED));
 GpiCore sw(get_slot_addr(BRIDGE_BASE, S3_SW));
-GpiCore mic(get_slot_addr(BRIDGE_BASE, S14_MIC));
-GpoCore audio(get_slot_addr(BRIDGE_BASE, S15_AUDIO));
+//GpiCore mic(get_slot_addr(BRIDGE_BASE, S14_MIC));
+//GpoCore audio(get_slot_addr(BRIDGE_BASE, S15_AUDIO));
 
-AudioCore power(get_slot_addr(BRIDGE_BASE, S15_AUDIO));
+MicCore mic(get_slot_addr(BRIDGE_BASE, S14_MIC));
+AudioCore audio(get_slot_addr(BRIDGE_BASE, S15_AUDIO));
 
 
 int main() {
 
    while (1) {
-	  audio_play(&mic, &audio, &power);
+	  audio_play(&mic, &audio);
       timer_check(&led);
       led_check(&led, 16);
       sw_check(&led, &sw);

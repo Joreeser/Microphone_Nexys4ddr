@@ -1,4 +1,4 @@
-22:08:35 **** Build of project audio_bsp ****
+21:06:01 **** Build of project audio_bsp ****
 make -k all 
 "Running Make include in microblaze_I/libsrc/bram_v4_2/src"
 make -C microblaze_I/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -91,7 +91,7 @@ microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly
  #pragma message ("For the sleep routines, assembly instructions are used")
          ^~~~~~~
 'Finished building libraries'
-22:09:00 **** Build of configuration Debug for project audio_test ****
+21:06:25 **** Build of configuration Debug for project audio_test ****
 make all 
 'Building file: ../src/main.cc'
 'Invoking: MicroBlaze g++ compiler'
@@ -109,14 +109,14 @@ mb-size audio_test.elf  |tee "audio_test.elf.size"
    1952	    268	   3108	   5328	   14d0	audio_test.elf
 'Finished building: audio_test.elf.size'
 ' '
-22:09:02 **** Auto Build of configuration Debug for project audio_test ****
+21:06:28 **** Auto Build of configuration Debug for project audio_test ****
 make all 
 make: Nothing to be done for `all'.
-22:09:44 **** Clean-only build of configuration Debug for project audio_test ****
+21:07:16 **** Clean-only build of configuration Debug for project audio_test ****
 make clean 
 rm -rf  ./src/main.d  ./src/main.o  audio_test.elf.size  audio_test.elf
 ' '
-22:09:45 **** Auto Build of configuration Debug for project audio_test ****
+21:07:16 **** Auto Build of configuration Debug for project audio_test ****
 make all 
 'Building file: ../src/audio_core.cpp'
 'Invoking: MicroBlaze g++ compiler'
@@ -133,6 +133,19 @@ mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chu_init.o" -I../../audio_bsp
 mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio_cores.o" -I../../audio_bsp/microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gpio_cores.d" -MT"src/gpio_cores.o" -o "src/gpio_cores.o" "../src/gpio_cores.cpp"
 'Finished building: ../src/gpio_cores.cpp'
 ' '
+'Building file: ../src/main_vanilla_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../audio_bsp/microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
+../src/main_vanilla_test.cpp: In function 'void audio_play(MicCore*, AudioCore*)':
+../src/main_vanilla_test.cpp:82:21: error: 'class MicCore' has no member named 'read'
+  data = (int)mic_p->read();
+                     ^~~~
+../src/main_vanilla_test.cpp:84:11: error: 'class AudioCore' has no member named 'write'
+  audio_p->write(data);
+           ^~~~~
+make: *** [src/main_vanilla_test.o] Error 1
+21:09:04 **** Auto Build of configuration Debug for project audio_test ****
+make all 
 'Building file: ../src/main_vanilla_test.cpp'
 'Invoking: MicroBlaze g++ compiler'
 mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main_vanilla_test.o" -I../../audio_bsp/microblaze_I/include -mno-xl-reorder -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main_vanilla_test.d" -MT"src/main_vanilla_test.o" -o "src/main_vanilla_test.o" "../src/main_vanilla_test.cpp"
@@ -161,6 +174,6 @@ mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../audio_bsp/microblaze_I/lib -mlittle-
 'Invoking: MicroBlaze Print Size'
 mb-size audio_test.elf  |tee "audio_test.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  11860	    284	   3160	  15304	   3bc8	audio_test.elf
+  12000	    284	   3148	  15432	   3c48	audio_test.elf
 'Finished building: audio_test.elf.size'
 ' '
